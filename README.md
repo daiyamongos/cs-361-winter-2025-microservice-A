@@ -10,7 +10,6 @@ A microservice that receives images and stores them in a locally stored folder, 
 - Run microservice: 
   - "python img_vault_ms.py"
 <br>
-<br>
 
 # UML
 ![UML Diagram](imgvault_UML.png)
