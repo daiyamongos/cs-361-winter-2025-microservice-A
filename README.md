@@ -9,9 +9,13 @@ A microservice that receives images and stores them in a locally stored folder, 
   - "pip install flask" or "requests"
 - Run microservice: 
   - "python img_vault_ms.py"
+- Setup local folder for storage:
+  - create "img_vault" folder in same directory as the microservice
+<br>
 <br>
 
-# UML
+# UML Diagram
+Upload, Retrieve, and Delete scenario.
 ![UML Diagram](imgvault_UML.png)
 
 # HTTP API endpoints
