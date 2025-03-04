@@ -9,4 +9,6 @@ COPY . .
 
 VOLUME /usr/src/app/img_vault
 
-CMD [ "python", "./img_vault_ms.py.py" ]
+EXPOSE 5000
+
+CMD [ "python", "img_vault_ms.py" ]
